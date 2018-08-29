@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Author</title>
+</head>
+<body>
+    <header>
+        <div>
+           <span><a href="index.html"><img src="img/logo.png" alt="logo" height="42" width="42"> Курс польского языка уровня А1</a></span> 
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="structure.html">Структура курса</a></li>
+                <li><a href="test.html">Тест</a></li>
+                <li><a href="author.html">Автор курса</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <img src="img/kursy_propolski.png" alt="Kursy propolski" align="center">
+    </header>
+    <main>
+       
+    </main>
+    <footer>
+        <div class="address">
+            <address>
+                Автор курса: <a href="mailto:kettibellya@gmail.com">Екатерина Лукьянова</a><br>
+                ProPolski.com
+            </address>
+        </div>
+        <div class="contact">
+            <h3>Запишись на курс:</h3>
+        	<form method="POST" action="https://formspree.io/kettibellya@gmail.com">
+        	    <fieldset>
+        	        <label for="client-name">Имя:  </label>
+                    <input type="text" name="client-name" placeholder="Ваше имя" id="client-name">
+                    <br>
+                    <label>E-mail: <input type="email" name="client-email" placeholder="Ваш е-мейл" required></label>
+                    <br>
+                    <label><input type="radio" name="kurs" value="want">Хочу на курс!</label>
+                    <label><input type="radio" name="other_question" value="other">Другой вопрос</label>
+                    <br>
+                    <input type="submit">
+                    <input type="reset">
+                </fieldset>
+        	</form>
+        </div>
+        <span>Copyright © 2018 ProPolski. Powered by KateLukianova</span>
+    </footer>
+</body>
+</html>
