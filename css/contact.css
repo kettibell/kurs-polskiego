@@ -55,7 +55,8 @@ header div.banner {
 	height: 227px;
     background-image: url(../img/kurs.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
