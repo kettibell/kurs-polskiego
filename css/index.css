@@ -68,6 +68,13 @@ header .banner {
 	 font-size: 1rem;
 }
 
+@media (min-width: 584px) {
+	.home p {
+	text-align: center;
+	font-family: 'Bad Script', cursive;
+	font-size: 1.5rem;
+	}
+}
 
 .description-list-item {
 	border: 1px solid black;
@@ -83,12 +90,14 @@ header .banner {
 
 @media (min-width: 500px) {
 	.description-list {
-		grid-template-columns: 1fr 1fr 1fr;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
 }
 
 @media (min-width: 600px) {
 	.description-list {
+		display: grid;
 		grid-template-columns: repeat(1fr, 4);
 	}
 	
