@@ -94,16 +94,17 @@ header .banner {
 .description-list-item {
 	border: none;
 	padding: 3px;
+	text-align: center;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 450px) {
 	.description-list {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
 	.description-list {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
