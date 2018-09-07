@@ -148,8 +148,8 @@ header .banner {
 	text-align: center;
 }
 
-@media (min-width: 450px) {
-	.work-video {
+@media (min-width: 686px) {
+	.work {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
