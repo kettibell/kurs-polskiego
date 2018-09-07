@@ -90,6 +90,7 @@ header .banner {
 	 text-align: center;
 	 font-family: 'Bad Script', cursive;
 	 font-size: 1rem;
+	 margin: 8px;
 }
 
 @media (min-width: 450px) {
@@ -108,23 +109,49 @@ header .banner {
 	}
 }
 
-.description-list-item {
+.motivation-list-item {
 	border: none;
-	padding: 3px;
+	padding: 8px;
 	text-align: center;
 }
 
 @media (min-width: 450px) {
-	.description-list {
+	.motivation-list {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
 }
 
 @media (min-width: 600px) {
-	.description-list {
+	.motivation-list {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}
+
+.description-list h2 {
+	margin-left: 2%;
+}
+
+.description-list ul li {
+	margin: 2%;
+	text-align: justify;
+}
+
+.work {
+	margin: 2%;
+}
+
+.work-video {
+	border: none;
+	padding: 8px;
+	text-align: center;
+}
+
+@media (min-width: 450px) {
+	.work-video {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 	}
 }
 
