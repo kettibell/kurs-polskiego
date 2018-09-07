@@ -51,13 +51,45 @@ header nav ul li a:hover {
 	}
 }
 
-header div.banner {
+header .banner {
 	height: 227px;
     background-image: url(../img/kurs.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.home p {
+	 text-align: center;
+	 font-family: 'Bad Script', cursive;
+	 font-size: 1rem;
+}
+
+
+.description-list-item {
+	border: 1px solid black;
+	padding: 3px;
+}
+
+@media (min-width: 400px) {
+	.description-list {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 500px) {
+	.description-list {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media (min-width: 600px) {
+	.description-list {
+		grid-template-columns: repeat(1fr, 4);
+	}
+	
+}
