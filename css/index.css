@@ -8,63 +8,22 @@ body {
     max-width: 1000px;
     margin: auto;
     padding:0 5px;
-    background-color: #c9f76f;
+    /*background-color: #c9f76f;*/
 }
 main {
-	background-color: #ffffff;
-}
-
-header nav p {
-	font-family: 'Bad Script', cursive;
-	font-size: 1.5rem;
-}
-header nav ul {
-	margin-left: 0;
-	padding-left: 0;
-	
-}
-header nav ul li {
-	list-style-type: none;
-}
-
-header nav ul li a {
-	color: black;
-	text-decoration: none;
-}
-
-header nav ul li a:hover {
-	text-decoration: underline;
-}
-
-@media (min-width: 584px) {
-	header nav {
-		display: flex;
-	}
-	header ul {
-		display: flex;
-		flex: 1;
-		align-items: center;
-	}
-	header nav ul li {
-		margin-left: 2%;
-	}
-	header nav ul li:first-child {
-		margin-left: 10%;
-	}
-	header nav ul li:last-child {
-		margin-left: auto;
-	}
+	/*background-color: #ffffff;*/
 }
 
 header .banner {
 	height: 100px;
-    background-image: url(../img/kurs.png);
+	background-image: url(../img/kursy.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #ffffff;
 }
 
 @media (min-width: 480px) {
@@ -86,10 +45,16 @@ header .banner {
 	}
 }
 
-.home p {
+.header-hr {
+	border-top: 2px dashed red;
+	background-color: white;
+	height: 2px;
+}
+
+.home h2 {
 	 text-align: center;
 	 font-family: 'Bad Script', cursive;
-	 font-size: 1rem;
+	 font-size: 2rem;
 	 margin: 8px;
 }
 
@@ -146,12 +111,28 @@ header .banner {
 	border: none;
 	padding: 8px;
 	text-align: center;
+	align-items: center;
 }
 
-@media (min-width: 686px) {
-	.work {
+.work-video p {
+	padding: 8px;
+}
+@media (min-width: 750px) {
+	.work-video {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 65% 35%;
 	}
 }
 
+@media (min-width: 840px) {
+	.work-video {
+		display: grid;
+		grid-template-columns: 55% 45%;
+	}
+}
+
+iframe {
+	min-height: 300px;
+}
+
+*/
