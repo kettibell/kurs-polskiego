@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bad+Script|PT+Sans:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Marmelad|PT+Sans:400,400i,700,700i');
 
 :root {
     font-family: 'PT Sans', sans-serif;
@@ -8,10 +8,18 @@ body {
     max-width: 1000px;
     margin: auto;
     padding:0 5px;
-    /*background-color: #c9f76f;*/
+   /* background-color: #c9f76f;*/
 }
 main {
 	/*background-color: #ffffff;*/
+}
+
+.navbar-brand {
+	font-family: 'Marmelad', sans-serif;
+}
+
+.nav-item {
+	font-family: 'Marmelad', sans-serif;	
 }
 
 header .banner {
@@ -54,7 +62,7 @@ header .banner {
 
 .home h2 {
 	 text-align: center;
-	 font-family: 'Bad Script', cursive;
+	 font-family: 'Marmelad', sans-serif;
 	 font-size: 2rem;
 	 margin: 8px;
 }
@@ -62,15 +70,13 @@ header .banner {
 @media (min-width: 450px) {
 	.home p {
 	text-align: center;
-	font-family: 'Bad Script', cursive;
+	font-family: 'Marmelad', sans-serif;
 	font-size: 1.2rem;
 	}
 }
 
 @media (min-width: 584px) {
 	.home p {
-	text-align: center;
-	font-family: 'Bad Script', cursive;
 	font-size: 1.5rem;
 	}
 }
@@ -83,6 +89,7 @@ header .banner {
 
 .motivation-list-item h3 {
 	font-size: 1.5rem;
+	font-family: 'Marmelad', sans-serif;
 }
 
 @media (min-width: 450px) {
@@ -92,7 +99,7 @@ header .banner {
 	}
 }
 
-@media (min-width: 700px) {
+@media (min-width: 750px) {
 	.motivation-list {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -109,11 +116,27 @@ header .banner {
 }
 
 #comfort {
-	color: red;
+	color: #4EBCC2;
+}
+
+#system {
+	color: #EE7272;
+}
+
+#duty {
+	color: #85B12D;
+}
+
+#funny {
+	color: #026362;
 }
 
 .work {
 	margin: 2%;
+}
+
+.description-list h2 {
+	font-family: 'Marmelad', sans-serif;
 }
 
 .work-video {
@@ -144,4 +167,16 @@ iframe {
 	min-height: 300px;
 }
 
-*/
+.footer-class {
+	border: none;
+	padding: 8px;
+	text-align: center;
+	align-items: center;
+}
+
+@media (min-width: 600px) {
+	.footer-class {
+		display: grid;
+		grid-template-columns: 40% 60%;
+	}
+}
