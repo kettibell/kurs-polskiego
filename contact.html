@@ -5,54 +5,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kontakt</title>
-    <link rel="stylesheet" href="css/contact.css" type="text/css" />
+    <title>Kontakty</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <p><a href="index.html"><img src="img/logo.png" alt="logo" height="42" width="42"></a> Курс польского А1</p>
-            <ul>
-                <li><a href="index.html"><b>Главная</b></a></li>
-                <li><a href="structure.html"><b>Структура</b></a></li>
-                <li><a href="test.html"><b>Тест</b></a></li>
-                <li><a href="author.html"><b>Автор</b></a></li>
-                <li><a href="contact.html"><b>Записаться!</b></a></li>
-            </ul>
-        </nav>
-        <div class="banner">
-            
-        </div>
-        
-    </header>
-    <main>
+
+        <header id="top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">Kursy ProPolski</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                 </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#top">Главная <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="structure.html">Структура</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="author.html">Автор</a>
+                        </li>
+                        
+                    </ul>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                        <i class="far fa-edit"></i> Записаться</button>
+                </div>
+            </nav>
+            <hr class="header-hr">
+            <div class="banner">
+
+            </div>
+            <hr class="header-hr">
+           
+
+        </header>
        
-    </main>
-    <footer>
-        <div class="address">
-            <address>
-                Автор курса: <a href="mailto:kettibellya@gmail.com">Екатерина Лукьянова</a><br>
-                ProPolski.com
-            </address>
-        </div>
-        <div class="contact">
-            <h3>Запишись на курс:</h3>
-        	<form method="POST" action="https://formspree.io/kettibellya@gmail.com">
-        	    <fieldset>
-        	        <label for="client-name">Имя:  </label>
-                    <input type="text" name="client-name" placeholder="Ваше имя" id="client-name">
-                    <br>
-                    <label>E-mail: <input type="email" name="client-email" placeholder="Ваш е-мейл" required></label>
-                    <br>
-                    <label><input type="radio" name="kurs" value="want">Хочу на курс!</label>
-                    <label><input type="radio" name="other_question" value="other">Другой вопрос</label>
-                    <br>
-                    <input type="submit">
-                    <input type="reset">
-                </fieldset>
-        	</form>
-        </div>
-        Copyright © 2018 ProPolski. Powered by KateLukianova
-    </footer>
+        <main>
+            <p>Курсов польского языка — великое множество. Индивидуальные или групповые; курсы в классе или по скайпу; курсы для начинающих и курсы для карты поляка; экспресс-курсы польского языка и курсы интенсивные; бесплатные и платные курсы польского; курсы польского языка в Минске, Киеве и Москве — каждый может себе подобрать занятия на свой вкус, цвет и кошелек. По просьбам читателей — сайт PROpolski.com так же решил создать свой уголок курсов.</p>
+        <hr class="header-hr">
+        </main>
+        <footer>
+            <div class="footer-class">
+                <address>
+                    Автор курса: <a href="mailto:kettibellya@gmail.com">Екатерина Лукьянова</a><br>
+                    ProPolski.com
+                </address>
+                <div class="contact">
+                    <h3>Запишись на курс:</h3>
+                    <form method="POST" action="https://formspree.io/kettibellya@gmail.com">
+                        <fieldset>
+                            <label for="client-name">Имя:  </label>
+                            <input type="text" name="client-name" placeholder="Ваше имя" id="client-name">
+                            <br>
+                            <label>E-mail: <input type="email" name="client-email" placeholder="Ваш е-мейл" required></label>
+                            <br>
+                            <label><input type="radio" name="kurs" value="want">Хочу на курс!</label>
+                            <label><input type="radio" name="other_question" value="other">Другой вопрос</label>
+                            <br>
+                            <input type="submit">
+                            <input type="reset">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+                Copyright © 2018 ProPolski. Powered by KateLukianova
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+
+
+
 </body>
+
 </html>
