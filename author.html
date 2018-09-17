@@ -8,6 +8,7 @@
     <title>Autor</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="stylesheet" href="css/author.css" type="text/css" />
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -19,76 +20,88 @@
 
 <body>
 
-        <header id="top">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="index.html">Kursy ProPolski</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Kursy ProPolski</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                  </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#top">Главная <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="structure.html">Структура</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="author.html">Автор</a>
-                        </li>
-                        
-                    </ul>
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Главная <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="structure.html">Структура</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="author.html">Автор</a>
+                    </li>
+
+                </ul>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
                         <i class="far fa-edit"></i> Записаться</button>
-                </div>
-            </nav>
-            <hr class="header-hr">
-            <div class="banner">
-
             </div>
-            <hr class="header-hr">
-           
-
-        </header>
-       
-        <main>
-            <p>Witam Państwa! Co słychać? Widzę, że trafiłeś we właściwe i ciekawe miejsce! No to zapraszam!
-
-Я — Екатерина Лукьянова, репетитор польского языка, автор данного супер-полезного ресурса, да, именно таковым я его считаю! Вы даже не представляете, что здесь сокрыто и что лежит прямо на поверхности — сотни часов, проведённых за поиском и анализом грамматики; тысячи минут скурпулёзного перевода Гарри Поттера и других текстов по методу Ильи Франка; десятки часов, проведённых в Иллюстраторе, чтобы как-то оживить сухие тексты весёлыми, порой полезными картинками — и мне всё ещё не удаётся постичь то высокое искусство «инфографика»; уже годы знакомства с Польшей и польским языком в качестве ученицы и преподавателя; несколько минут, чтобы уговорить хороших и знающих людей помочь мне с сайтом — и результаты этой помощи вы можете видеть в разных проявлениях, графических или текстовых; ещё сколько-то единиц времени, которые я трачу, просто заходя на сайт и любуясь им, потому что он мне, ей-богу, нравится! Это моё детище, спутник моих лекций, который изначально создавался только лишь как помощник моим ученикам, а теперь, надеюсь, будет помогать людям, ищущим помощи в изучении польского языка, знакомящихся с Польшей и польскими традициями, переезжающим сюда и уже живущим здесь, но нуждающимся в некоторой информационной помощи, просто любопытным и любящим читать буквы. Я правда верю, что то, что делаю, не пройдёт даром — и кто-то чему-то научится на страницах этого сайта — будь то какой-то кусочек польского языка, а может, какие-то штучки, которыми я постоянно пользуюсь для облегчения жизни польско-язычной или же обычной. Важно понимать, что PROpolski — это не курсы польского языка, не лекции, не уроки. Это сборник всякой интересной информации о польском языке и чуть-чуть о Польше.</p>
+        </nav>
         <hr class="header-hr">
-        </main>
-        <footer>
-            <div class="footer-class">
-                <address>
-                    Автор курса: <a href="mailto:kettibellya@gmail.com">Екатерина Лукьянова</a><br>
-                    ProPolski.com
-                </address>
-                <div class="contact">
-                    <h3>Запишись на курс:</h3>
-                    <form method="POST" action="https://formspree.io/kettibellya@gmail.com">
-                        <fieldset>
-                            <label for="client-name">Имя:  </label>
-                            <input type="text" name="client-name" placeholder="Ваше имя" id="client-name">
-                            <br>
-                            <label>E-mail: <input type="email" name="client-email" placeholder="Ваш е-мейл" required></label>
-                            <br>
-                            <label><input type="radio" name="kurs" value="want">Хочу на курс!</label>
-                            <label><input type="radio" name="other_question" value="other">Другой вопрос</label>
-                            <br>
-                            <input type="submit">
-                            <input type="reset">
-                        </fieldset>
-                    </form>
-                </div>
-            </div>
-                Copyright © 2018 ProPolski. Powered by KateLukianova
-        </footer>
+        <div class="banner">
+        </div>
+        <hr class="header-hr">
+    </header>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+    <main>
+        <h2>Чуть-чуть об авторе курсов</h2>
+        <div class="image">
+            <img src="img/katia.jpg" alt="Zdjecie autora">
+        </div>
+        <p class="author-p">Witam Państwa! Co słychać? Widzę, że trafiłeś we właściwe i ciekawe miejsce! No to zapraszam! </p>
+        <p class="author-p">Я — Екатерина Лукьянова, репетитор польского языка, автор сайта <a href="http://propolski.com">propolski.com</a>, супер-полезного ресурса, да, именно таковым я его считаю!</p>
+        <p class="author-p">Вы даже не представляете, что там сокрыто и что лежит прямо на поверхности — сотни часов, проведённых за поиском и анализом грамматики; тысячи минут скурпулёзного перевода Гарри Поттера и других текстов по методу Ильи Франка; часы оформления видео
+            уроков с субтитрами; уже годы знакомства с Польшей и польским языком в качестве ученицы и преподавателя; несколько минут, чтобы уговорить хороших и знающих людей помочь мне с сайтом — и результаты этой помощи вы можете видеть в разных проявлениях,
+            графических или текстовых; ещё сколько-то единиц времени, которые я трачу, просто заходя на сайт и любуясь им, потому что он мне, ей-богу, нравится! Это моё детище, спутник моих лекций, который изначально создавался только лишь как помощник
+            моим ученикам, а теперь, надеюсь, будет помогать людям, ищущим помощи в изучении польского языка, знакомящихся с Польшей и польскими традициями, переезжающим сюда и уже живущим здесь, но нуждающимся в некоторой информационной помощи, просто
+            любопытным и любящим читать буквы.</p>
+        <p class="author-p">В какой-то момент читатели стали спрашивать, а почему я не сделаю курсы? И после пары лет отговорок я все-таки их сделала. Результат перед вами!</p>
+        <p class="author-p">Хорошо ли получилось? Просто великолепно, я считаю! Делала как для себя, а потому мне очень нравится то, что получилось. Все мои знания - здесь, в этом курсе. Все, что я могла сказать о польском языке - я сказала. Вам осталось только усвоить все
+            это и закрепить со мной в рамках курса.</p>
+        <p class="author-p">До встречи на занятиях!</p>
+        <hr class="header-hr">
+    </main>
+    <footer>
+        <div class="footer-class">
+            <address>
+                    Автор курса: <a href="mailto:info@propolski.com">Екатерина Лукьянова</a><br>
+                    <a href="http://propolski.com">ProPolski.com</a>
+                </address>
+            <div class="contact">
+                <h3>Запишись на курс:</h3>
+                <form method="POST" action="https://formspree.io/kettibellya@gmail.com">
+                    <fieldset>
+                        <label for="client-name">Имя:  </label>
+                        <input type="text" name="client-name" placeholder="Ваше имя" id="client-name">
+                        <br>
+                        <label>E-mail: <input type="email" name="client-email" placeholder="Ваш е-мейл" required></label>
+                        <br>
+                        <label><input type="radio" name="kurs" value="want">Хочу на курс!</label>
+                        <label><input type="radio" name="other_question" value="other">Другой вопрос</label>
+                        <br>
+                        <input type="submit">
+                        <input type="reset">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2018 ProPolski. </p>
+            <p>Powered by KateLukianova</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
 
 
 

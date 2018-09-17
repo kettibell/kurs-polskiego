@@ -10,12 +10,25 @@ body {
     padding:0 5px;
    /* background-color: #c9f76f;*/
 }
-main {
-	/*background-color: #ffffff;*/
+
+h1 {
+	font-family: 'Marmelad', sans-serif;
+}
+
+h2 {
+	font-family: 'Marmelad', sans-serif;
+}
+
+h3 {
+	font-family: 'Marmelad', sans-serif;
 }
 
 .navbar-brand {
 	font-family: 'Marmelad', sans-serif;
+}
+
+p {
+    text-align: justify;
 }
 
 .nav-item {
@@ -62,7 +75,6 @@ header .banner {
 
 .home h2 {
 	 text-align: center;
-	 font-family: 'Marmelad', sans-serif;
 	 font-size: 2rem;
 	 margin: 8px;
 }
@@ -84,6 +96,10 @@ header .banner {
 .motivation-list-item {
 	border: none;
 	padding: 8px;
+	text-align: center;
+}
+
+.motivation-list-item p {
 	text-align: center;
 }
 
@@ -147,6 +163,10 @@ header .banner {
 }
 
 .work-video p {
+	text-align: center;
+}
+
+.work-video p {
 	padding: 8px;
 }
 @media (min-width: 750px) {
@@ -179,4 +199,16 @@ iframe {
 		display: grid;
 		grid-template-columns: 40% 60%;
 	}
+}
+
+.copyright p {
+	text-align: center;
+}
+
+@media (min-width: 450px) {
+	.copyright {
+		display: grid;
+		grid-template-columns: 40% 60%;
+	}
+
 }
