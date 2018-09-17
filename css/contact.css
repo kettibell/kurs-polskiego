@@ -1,3 +1,11 @@
 .contact {
 	text-align: center;
 }
+
+@media (min-width: 450px) {
+	.courses-type {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+}
